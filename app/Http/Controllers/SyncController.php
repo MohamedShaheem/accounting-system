@@ -15,8 +15,8 @@ use Exception;
 
 class SyncController extends Controller
 {
-    private $systemAUrl = 'https://acjpv.com/api/v1/sync/orders';
-    // private $systemAUrl = 'http://127.0.0.1:8000/api/v1/sync/orders';
+    
+    private $systemAUrl = 'http://127.0.0.1:8000/api/v1/sync/orders';
     
     /**
      * Show sync page
